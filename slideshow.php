@@ -1,4 +1,5 @@
-<section class="topwa">
+<section class="slide-container">
+<div class="topwa">
   <div class="header-home">
     <!--Solo en home-->
     <?php
@@ -50,4 +51,5 @@
     }
     ?>
   </div>
+</div>
 </section>

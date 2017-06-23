@@ -1,0 +1,75 @@
+.slide-container {
+	position: relative;
+
+	.topwa {
+		margin: 0;
+		padding: 0;
+		background: url('../images/clouds.jpg') #fff;
+	}
+}
+
+.header-home {
+ background: url(../images/bg-transparente.png);
+ position: relative;
+ padding: 60px 0 0 0;
+}
+
+.content-slider {
+  .cont-box {
+    padding: 20px 40px;
+    text-align:center;
+    font-family: @font-family-1;
+
+    h2{
+      color: @color-secondary-0;
+      text-shadow: 1px 1px 3px rgba(255,255,255,.6);
+      letter-spacing: -0.5px;
+      font-size: 60px;
+      font-weight: 900;
+      text-transform: uppercase;
+
+      span {
+        color: @color-primary-0;
+      }
+
+    }
+
+    p{
+      font-size: 18px;
+      font-family: @font-family-2;
+      color: #fff;
+    }
+
+
+    .btn-link {
+      font-family: @font-family-2;
+      font-size: 18px;
+      font-weight:300;
+      background-color: transparent;
+      border-color: #fff;
+      border-radius: 6px;
+      text-decoration:none;
+      color:#fff;
+
+      -moz-transition: .4s ease;
+      webkit-transition: .4s ease;
+      transition: .4s ease;
+
+      i {
+        font-size: 20px;
+      } 
+
+      &:hover{
+        color:#fff;
+        border-color: @color-primary-1;
+        background-color: @color-nav-bg-hover;
+        background-image: linear-gradient(
+          to top right, 
+          @color-nav-bg-hover, @color-primary-1
+          );
+      }
+    }
+
+  }
+
+}
